@@ -1,0 +1,362 @@
+@REFLECTION_CONFIG[default]:NEEDS[TexturesUnlimited]
+{
+	%enabled = true
+}
+
+KSP_TEXTURE_SET
+{
+	name = AtlasEngines
+	title = Atlas Engines
+	recolorable = false
+		
+	MATERIAL
+	{
+		shader = TU/Metallic
+
+		texture = _MainTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Engines_Shiny
+		texture = _MetallicGlossMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Engines_MetallicSmoothness
+		texture = _Emission, Bluedog_DB/Parts/Atlas/bluedog_Atlas_Engines_Emissive
+		texture = _BumpMap, Bluedog_DB/Parts/Atlas/bluedog_Atlas_Engines_NRM
+		texture = _AOMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Engines_MetallicSmoothness
+		
+		excludeMesh = flagTransform
+		excludeMesh = Flag
+	}
+	
+}
+
+KSP_TEXTURE_SET
+{
+	name = AtlasEnginesRecolour
+	title = Engines Recolour
+	recolorable = true
+		
+	MATERIAL
+	{
+		shader = TU/Metallic
+
+		texture = _MainTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Engines_Shiny
+		texture = _MetallicGlossMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Engines_MetallicSmoothness
+		texture = _Emission, Bluedog_DB/Parts/Atlas/bluedog_Atlas_Engines_Emissive
+		texture = _BumpMap, Bluedog_DB/Parts/Atlas/bluedog_Atlas_Engines_NRM
+		texture = _AOMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Engines_MetallicSmoothness
+		texture = _MaskTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Engines_MASK
+		keyword = TU_RECOLOR
+		channelMask = 1
+		
+		vector = _DiffuseNorm,0.54,0.54,0.54
+		vector = _MetalNorm,0.35,0.35,0.35
+		vector = _SmoothnessNorm,0.55,0.55,0.55
+		mode = create
+		
+		excludeMesh = flagTransform
+		excludeMesh = Flag
+	}
+	COLORS
+	{
+		mainColor = stainless
+		secondColor = stainless
+		detailColor = stainless
+	}
+}
+
+KSP_TEXTURE_SET
+{
+	name = AtlasStandard
+	title = Atlas I
+	recolorable = false
+	MATERIAL
+	{
+		shader = TU/Metallic
+
+		texture = _MainTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_Shiny
+		texture = _MetallicGlossMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_MetallicSmoothness
+		texture = _BumpMap, Bluedog_DB/Parts/Atlas/bluedog_Atlas_Parts1_NRM
+		texture = _AOMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_MetallicSmoothness
+		
+		excludeMesh = flagTransform
+		excludeMesh = Flag
+	}
+}
+
+KSP_TEXTURE_SET
+{
+	name = AtlasIced
+	title = Atlas Iced
+	recolorable = false
+	MATERIAL
+	{
+		shader = TU/Metallic
+
+		texture = _MainTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_Iced_Colour
+		texture = _MetallicGlossMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_Iced_MetallicSmoothness
+		texture = _BumpMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_Iced_NRM
+		texture = _AOMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_Iced_MetallicSmoothness
+		texture = _Thickness, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_Iced_SS
+		
+		keyword = TU_SUBSURF
+		float = _SubSurfAmbient, 0.2
+		float = _SubSurfScale, 0.5
+		float = _SubSurfPower, 2.1
+		float = _SubSurfDistortion, 0.1
+		float = _SubSurfAttenuation, 0.6
+		
+		excludeMesh = flagTransform
+		excludeMesh = Flag
+	}
+}
+
+KSP_TEXTURE_SET
+{
+	name = AtlasRecolour
+	title = Atlas
+	recolorable = true
+	MATERIAL
+	{
+		shader = TU/Metallic
+
+		texture = _MainTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_Shiny
+		texture = _MetallicGlossMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_MetallicSmoothness
+		texture = _BumpMap, Bluedog_DB/Parts/Atlas/bluedog_Atlas_Parts1_NRM
+		texture = _AOMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_MetallicSmoothness
+		texture = _MaskTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_MASK
+		keyword = TU_RECOLOR
+		channelMask = 1
+		
+		vector = _DiffuseNorm,0.72,0.72,0.72
+		vector = _MetalNorm,0.89,0.89,0.89
+		vector = _SmoothnessNorm,0.69,0.69,0.69
+		mode = create
+		excludeMesh = flagTransform
+		excludeMesh = Flag
+	}
+	COLORS
+	{
+		mainColor = stainless
+		secondColor = ltGray
+		detailColor = white
+	}
+}
+
+KSP_TEXTURE_SET
+{
+	name = AtlasSM-65
+	title = Atlas SM-65
+	recolorable = false
+	MATERIAL
+	{
+		shader = TU/Metallic
+
+		texture = _MainTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_AtlasA
+		texture = _MetallicGlossMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_AtlasA_MetallicSmoothness
+		texture = _BumpMap, Bluedog_DB/Parts/Atlas/bluedog_Atlas_Parts1_NRM
+		texture = _AOMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_AtlasA_MetallicSmoothness
+		
+		excludeMesh = flagTransform
+		excludeMesh = Flag
+	}
+}
+
+KSP_TEXTURE_SET
+{
+	name = AtlasSM-65Recolour
+	title = Atlas SM-65 Livery
+	recolorable = true
+	MATERIAL
+	{
+		shader = TU/Metallic
+
+		texture = _MainTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_AtlasA
+		texture = _MetallicGlossMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_AtlasA_MetallicSmoothness
+		texture = _BumpMap, Bluedog_DB/Parts/Atlas/bluedog_Atlas_Parts1_NRM
+		texture = _AOMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_AtlasA_MetallicSmoothness
+		texture = _MaskTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_AtlasA_MASK
+		keyword = TU_RECOLOR
+		channelMask = 1
+		
+		vector = _DiffuseNorm,0.42,0.42,0.42
+		vector = _MetalNorm,0.77,0.77,0.77
+		vector = _SmoothnessNorm,0.79,0.79,0.79
+		mode = create
+	}
+	COLORS
+	{
+		mainColor = stainless
+		secondColor = white
+		detailColor = orange
+	}
+}
+
+KSP_TEXTURE_SET
+{
+	name = ChrayolRed
+	title = Chrayol Red
+	recolorable = false
+	MATERIAL
+	{
+		shader = TU/Metallic
+
+		texture = _MainTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_ChrayolRed
+		texture = _MetallicGlossMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_ChrayolRed_MetallicSmoothness
+		texture = _BumpMap, Bluedog_DB/Parts/Atlas/bluedog_Atlas_Parts1_NRM
+		texture = _AOMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_ChrayolRed_MetallicSmoothness
+		
+		excludeMesh = flagTransform
+ 		excludeMesh = Flag
+	}
+}
+
+KSP_TEXTURE_SET
+{
+	name = ChrayolRedRecolour
+	title = Chrayol Livery Editor
+	recolorable = true
+	MATERIAL
+	{
+		shader = TU/Metallic
+
+		texture = _MainTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_ChrayolRed
+		texture = _MetallicGlossMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_ChrayolRed_MetallicSmoothness
+		texture = _BumpMap, Bluedog_DB/Parts/Atlas/bluedog_Atlas_Parts1_NRM
+		texture = _AOMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_ChrayolRed_MetallicSmoothness
+		texture = _MaskTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_ChrayolRed_MASK
+		keyword = TU_RECOLOR
+		channelMask = 1
+		
+		vector = _DiffuseNorm,0.42,0.69,0.69
+		vector = _MetalNorm,0.87,0.87,0.87
+		vector = _SmoothnessNorm,0.69,0.69,0.69
+		mode = create
+		excludeMesh = flagTransform
+ 		excludeMesh = Flag
+	}
+	COLORS
+	{
+		mainColor = stainless
+		secondColor = red
+		detailColor = red
+	}
+}
+
+KSP_TEXTURE_SET
+{
+	name = MidasSamos
+	title = Midas Samos
+	recolorable = true
+	MATERIAL
+	{
+		shader = TU/Metallic
+
+		texture = _MainTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_MidasSamos
+		texture = _MetallicGlossMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_MidasSamos_MetallicSmoothness 
+		texture = _BumpMap, Bluedog_DB/Parts/Atlas/bluedog_Atlas_Parts1_NRM
+		texture = _AOMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_MidasSamos_MetallicSmoothness
+		
+		excludeMesh = flagTransform
+		excludeMesh = Flag
+	}
+}
+
+KSP_TEXTURE_SET
+{
+	name = MidasSamosRecolour
+	title = Midas Samos Livery Editor
+	recolorable = true
+	MATERIAL
+	{
+		shader = TU/Metallic
+
+		texture = _MainTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_MidasSamos
+		texture = _MetallicGlossMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_MidasSamos_MetallicSmoothness 
+		texture = _BumpMap, Bluedog_DB/Parts/Atlas/bluedog_Atlas_Parts1_NRM
+		texture = _AOMap, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_MidasSamos_MetallicSmoothness
+		texture = _MaskTex, Bella_TU/AtlasUnlimited/bluedog_Atlas_Parts1_MidasSamos_MASK
+		keyword = TU_RECOLOR
+		//keyword = TU_RECOLOR_NORM
+		channelMask = 1
+		
+		vector = _DiffuseNorm,0.64,0.64,0.64
+		vector = _MetalNorm,0.87,0.87,0.87
+		vector = _SmoothnessNorm,0.72,0.72,0.72
+		mode = create
+		
+		excludeMesh = flagTransform
+		excludeMesh = Flag
+	}
+	COLORS
+	{
+		mainColor = stainless
+		secondColor = black
+		detailColor = red
+	}
+}
+
+@PART[bluedog_Atlas_LongFuelTank,bluedog_Atlas_BoosterSkirt,bluedog_CELV_MainTank,bluedog_SLV3X_MainTank]
+{
+	MODULE
+	{
+		name = KSPTextureSwitch
+		
+		currentTextureSet = AtlasStandard
+		
+		textureSet = AtlasStandard
+		textureSet = AtlasIced
+		textureSet = AtlasRecolour
+		textureSet = AtlasSM-65
+		textureSet = AtlasSM-65Recolour
+		textureSet = ChrayolRed
+		textureSet = ChrayolRedRecolour
+		textureSet = MidasSamos
+		textureSet = MidasSamosRecolour
+	}
+	MODULE
+	{
+		name = SSTURecolorGUI
+	}
+}
+
+@PART[bluedog_Atlas_AdapterFuelTank,bluedog_Atlas_Decoupler1875m,bluedog_Atlas_FairingBase,bluedog_Atlas_MediumFuelTank,bluedog_Atlas_ShortAdapterTank,bluedog_Atlas_ShortFuelTank,bluedog_Atlas_SustainerAdapterTank,bluedog_Atlas2_RollControlSystem,bluedog_CELV_AdapterTank_1p875m_Long,bluedog_CELV_AdapterTank_1p875m_Short,bluedog_CELV_AdapterTank_2p5m_Long,bluedog_CELV_AdapterTank_2p5m_Short,bluedog_CELV_LongTank,bluedog_CELV_MediumTank,bluedog_CELV_ShortTank,bluedog_SLV3X_LowerTank,bluedog_SLV3X_MediumTank,bluedog_SLV3X_ShortTank,bluedog_SLV3X_UpperTank]
+{
+	MODULE
+	{
+		name = KSPTextureSwitch
+		
+		currentTextureSet = AtlasStandard
+		
+		textureSet = AtlasStandard
+		textureSet = AtlasIced
+		textureSet = AtlasRecolour
+		textureSet = AtlasSM-65
+		textureSet = AtlasSM-65Recolour
+		textureSet = ChrayolRed
+		textureSet = MidasSamos
+	}
+	MODULE
+	{
+		name = SSTURecolorGUI
+	}
+}
+
+@PART[bluedog_Atlas_LR89,bluedog_Atlas_LR101_Inline,bluedog_Atlas_LR101_Radial,bluedog_Atlas_LR105]
+{
+	MODULE
+	{
+		name = KSPTextureSwitch
+		
+		currentTextureSet = AtlasEngines
+		
+		textureSet = AtlasEngines
+		textureSet = AtlasEnginesRecolour
+	}
+	MODULE
+	{
+		name = SSTURecolorGUI
+	}
+}
+
+@PART[bluedog_Atlas_LongFuelTank,bluedog_Atlas_BoosterSkirt,bluedog_Atlas_MediumFuelTank]:NEEDS[BDBNIC]:AFTER[BDBNIC]
+{
+	!MODULE[ModulePartVariants],* {}
+}
+
+!PART[bluedog_Atlas_BoosterSkirt_TU,bluedog_Atlas_LongFuelTank_TU,bluedog_Atlas_ShortAdapterTank_TU,bluedog_Atlas_ShortFuelTank_TU,bluedog_Atlas_SustainerAdapterTank_TU,bluedog_Atlas_AdapterFuelTank_TU,bluedog_Atlas_MediumFuelTank_TU]:NEEDS[BDBNIC]:AFTER[BDBNIC]
