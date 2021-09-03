@@ -4,9 +4,13 @@ TU configs for stockalike mods
 TU configs and textures for stockalike mods, release version includes shiny BDB Atlas-Agena for now. If BDBNIC is installed then those colour options will be incorporated. Plan is to incorporate these into TU recolours like the Atlas.
 
 BDB Atlas - Fully recolourable livveries (and engines) and custom metallic gloss maps
+
 BDB Agena - Metallic gloss maps
+
 BDB Titan - Basic* Metallic gloss maps, going to need some proper texturing to get the patchwork look of the Titan right.
+
 BDB SAF Fairings - as the base launch vehicle gets textures so do the corresponding fairings
+
 BDB Engines - Thor, Able and Centaur engines have basic metallic gloss maps
 
 Long term plans are textures and configs for restockalike parts that really need it - engines, steel tanks etc.
