@@ -26,6 +26,8 @@ Base textures for the Agena are from Bluedog Design Bureau
 
 Bluedog Design Bureau by Matthew (CobaltWolf) Mlodzienski is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
+Bella_TU by Bellabong is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
 https://github.com/shadowmage45/TexturesUnlimited/releases
 
 https://github.com/CobaltWolf/Bluedog-Design-Bureau
