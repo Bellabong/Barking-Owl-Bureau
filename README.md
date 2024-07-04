@@ -18,12 +18,15 @@ BDB Engines - Thor and Able engines have basic metallic gloss maps
 
 Long term plans are textures and configs for restockalike parts that really need it - engines, steel tanks etc.
 
-Base textures for the Atlas are from BDBNIC and Bluedog_DB.
+Base textures for the Atlas are from BDBNIC and Bluedog Design Bureau
 
-Base textures for the Agena are from Bluedog_DB.
+Base textures for the Agena are from Bluedog Design Bureau
 
 **Basic metallic gloss maps are derivatives of the original spec map. Still miles better than an indiscriminate model config*
 
+Bluedog Design Bureau by Matthew (CobaltWolf) Mlodzienski is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+Bella_TU by Bellabong is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
 https://github.com/shadowmage45/TexturesUnlimited/releases
 
