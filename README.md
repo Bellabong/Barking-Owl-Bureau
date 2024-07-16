@@ -9,15 +9,15 @@ What's currently included:
 
 BDB Atlas - Fully recolourable liveries (and engines) and bespoke metallic/smoothness maps
 
-BDB Agena - Bespoke metallic/smoothness gloss maps and recolourable AgenaD
+BDB Thor - Fully recolourable tanks, and bespoke metallic/smoothness maps
+
+BDB Agena - Bespoke metallic/smoothness gloss maps and fully recolourable Agena
 
 BDB Titan - Basic* metallic/smoothness maps, recolourable liveries with a usability update for BDB 13.x
 
 BDB Centaur - Basic metallic/smoothness maps
 
 BDB SAF Fairings - as the base launch vehicle gets textures so do the corresponding fairings
-
-BDB Engines - Thor and Able engines have basic metallic gloss maps
 
 
 **Basic metallic gloss maps contain a smoothness and metallicity texture derived from the spec texture, a tiny step up from deferred*
