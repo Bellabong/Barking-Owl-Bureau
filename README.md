@@ -1,13 +1,12 @@
-# Barking Owl Bureau
-
-![BobBanner](https://github.com/user-attachments/assets/f075f69c-e8f4-479b-80a4-6816babc0df7)
-
+![BobBanner2](https://github.com/user-attachments/assets/7b992df3-9d4a-4cf1-8258-adf6d04cd232)
 
 PBR Textures and TU/B9PS configs for BDB. Mod is designed around SSAO (Screenspace Ambient Occlusion) of post-processing add-ons being on. 
 
-Please note that most publically available TUFX/K3SP profiles have too much bloom in their settings for PBR. Testing was done with blackracks TUFX profile with bloom tuned off.
+Please note that most publicly available TUFX/K3SP profiles have too much bloom in their settings for PBR (A natural consequence of getting good pictures with old lighting and textures). Testing was done with blackracks TUFX profile with bloom tuned off. Screenshots were made with Alverro tufx tuned down. 
 
-What's currently included:
+
+**What's currently included:**
+
 
 BDB Atlas - Fully recolourable liveries (and engines) and bespoke metallic/smoothness maps
 
@@ -21,14 +20,17 @@ BDB Centaur - Basic metallic/smoothness maps
 
 BDB SAF Fairings - as the base launch vehicle gets textures so do the corresponding fairings
 
-
 **Basic metallic gloss maps contain a smoothness and metallicity texture derived from the spec texture, a tiny step up from deferred*
 
-Dependency:
-https://github.com/shadowmage45/TexturesUnlimited/releases
+
+
+# Dependencies:
+https://github.com/shadowmage45/TexturesUnlimited/releases*
 https://github.com/CobaltWolf/Bluedog-Design-Bureau/releases/tag/v1.13.0
 
-Soft Dependency::
+**If using Deferred Rendering by blackrack then you need this fork* https://github.com/LGhassen/TexturesUnlimited/releases/tag/1.6.1.0
+
+Soft Dependencies:
 https://github.com/shadowmage45/TUFX/releases AND/OR https://github.com/c1usta/KS3P/releases
 K3SP recommended for screenspace reflections. Mod is designed with SSAO in mind. 
 
