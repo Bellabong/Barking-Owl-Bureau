@@ -2,7 +2,7 @@
 
 PBR Textures and TU/B9PS configs for BDB. Mod is designed around SSAO (Screenspace Ambient Occlusion) of post-processing add-ons being on. 
 
-Please note that most publically available TUFX/K3SP profiles have too much bloom in their settings for PBR. Testing was done with blackracks TUFX profile with bloom tuned off.
+Please note that most publicly available TUFX/K3SP profiles have too much bloom in their settings for PBR (A natural consequence of getting good pictures with old lighting and textures). Testing was done with blackracks TUFX profile with bloom tuned off. Screenshots were made with Alverro tufx tuned down. 
 
 
 What's currently included:
