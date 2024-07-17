@@ -22,11 +22,13 @@ BDB SAF Fairings - as the base launch vehicle gets textures so do the correspond
 
 **Basic metallic gloss maps contain a smoothness and metallicity texture derived from the spec texture, a tiny step up from deferred*
 
-Dependency:
-https://github.com/shadowmage45/TexturesUnlimited/releases
+Dependencies:
+https://github.com/shadowmage45/TexturesUnlimited/releases*
 https://github.com/CobaltWolf/Bluedog-Design-Bureau/releases/tag/v1.13.0
 
-Soft Dependency::
+**If using Deferred Rendering by blackrack then you need this fork* https://github.com/LGhassen/TexturesUnlimited/releases/tag/1.6.1.0
+
+Soft Dependencies:
 https://github.com/shadowmage45/TUFX/releases AND/OR https://github.com/c1usta/KS3P/releases
 K3SP recommended for screenspace reflections. Mod is designed with SSAO in mind. 
 
