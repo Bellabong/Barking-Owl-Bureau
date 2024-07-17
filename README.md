@@ -4,7 +4,9 @@ PBR Textures and TU/B9PS configs for BDB. Mod is designed around SSAO (Screenspa
 
 Please note that most publicly available TUFX/K3SP profiles have too much bloom in their settings for PBR (A natural consequence of getting good pictures with old lighting and textures). Testing was done with blackracks TUFX profile with bloom tuned off. Screenshots were made with Alverro tufx tuned down. 
 
+
 **What's currently included:**
+
 
 BDB Atlas - Fully recolourable liveries (and engines) and bespoke metallic/smoothness maps
 
