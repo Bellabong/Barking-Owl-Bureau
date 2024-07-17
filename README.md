@@ -1,10 +1,10 @@
+![BobBanner2](https://github.com/user-attachments/assets/7b992df3-9d4a-4cf1-8258-adf6d04cd232)
+
 # Barking Owl Bureau
 
 PBR Textures and TU/B9PS configs for BDB. Mod is designed around SSAO (Screenspace Ambient Occlusion) of post-processing add-ons being on. 
 
 Please note that most publicly available TUFX/K3SP profiles have too much bloom in their settings for PBR (A natural consequence of getting good pictures with old lighting and textures). Testing was done with blackracks TUFX profile with bloom tuned off. Screenshots were made with Alverro tufx tuned down. 
-
-
 What's currently included:
 
 BDB Atlas - Fully recolourable liveries (and engines) and bespoke metallic/smoothness maps
@@ -38,3 +38,6 @@ https://github.com/CobaltWolf/Bluedog-Design-Bureau
 
 Barking Owl Bureau by Bellabong is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License and contains works derived from Bluedog Design Bureau.
 https://github.com/Bellabong/Barking-Owl-Bureau
+
+
+![Bobfooter](https://github.com/user-attachments/assets/94d7cab1-6f85-4d2e-8d9c-6a22cbe3148d)
