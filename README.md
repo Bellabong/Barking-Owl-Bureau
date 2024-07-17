@@ -1,11 +1,10 @@
 ![BobBanner2](https://github.com/user-attachments/assets/7b992df3-9d4a-4cf1-8258-adf6d04cd232)
 
-# Barking Owl Bureau
-
 PBR Textures and TU/B9PS configs for BDB. Mod is designed around SSAO (Screenspace Ambient Occlusion) of post-processing add-ons being on. 
 
 Please note that most publicly available TUFX/K3SP profiles have too much bloom in their settings for PBR (A natural consequence of getting good pictures with old lighting and textures). Testing was done with blackracks TUFX profile with bloom tuned off. Screenshots were made with Alverro tufx tuned down. 
-What's currently included:
+
+**What's currently included:**
 
 BDB Atlas - Fully recolourable liveries (and engines) and bespoke metallic/smoothness maps
 
@@ -19,10 +18,11 @@ BDB Centaur - Basic metallic/smoothness maps
 
 BDB SAF Fairings - as the base launch vehicle gets textures so do the corresponding fairings
 
-
 **Basic metallic gloss maps contain a smoothness and metallicity texture derived from the spec texture, a tiny step up from deferred*
 
-Dependencies:
+
+
+# Dependencies:
 https://github.com/shadowmage45/TexturesUnlimited/releases*
 https://github.com/CobaltWolf/Bluedog-Design-Bureau/releases/tag/v1.13.0
 
