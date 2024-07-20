@@ -26,6 +26,7 @@ BDB SAF Fairings - as the base launch vehicle gets textures so do the correspond
 
 # Dependencies:
 https://github.com/shadowmage45/TexturesUnlimited/releases*
+
 https://github.com/CobaltWolf/Bluedog-Design-Bureau/releases/tag/v1.13.0
 
 **If using Deferred Rendering by blackrack then you need this fork* https://github.com/LGhassen/TexturesUnlimited/releases/tag/1.6.1.0
